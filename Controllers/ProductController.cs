@@ -15,8 +15,9 @@ namespace ECommerceWithWebAPI.Controllers
 
         public IActionResult Index()
         {
-            var values = productManager.GetList();
-            return View(values);
+            //var values = productManager.GetList();
+            //return View(values);
+            return View();
         }
     }
 }
